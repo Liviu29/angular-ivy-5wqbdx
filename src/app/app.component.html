@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+<div class="">ceva</div>
+<div class="" *ngFor="let plac of place$ | async">
+  <div class="">{{ plac.place.name }}</div>
+</div>
+<!-- <div class="">{{ place$ | async }}</div> -->
+<!-- <div class="">{{place$.response[0].place.name}}</div> -->
+<app-parent></app-parent>
